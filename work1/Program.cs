@@ -6,3 +6,9 @@ if(b*b==a)
     Console.WriteLine("Yes");
 else
     Console.WriteLine("no");
+
+// Способ собирания данных с консоли
+Console.Write( " Enter a number: " );
+string str1 = Console.Readline()!;
+
+int num1 = int.parse(str1);
